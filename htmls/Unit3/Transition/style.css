@@ -1,0 +1,19 @@
+img{
+    width:200px;
+    transition: 
+    width 0.5s;
+    filter: grayscale(100%)
+}
+
+#myCat:hover{
+   width:400px;
+   rotate: 360deg;
+   filter: grayscale(0%);
+   transition: 
+   width 0.5s,
+   rotate 2s,
+   filter 2s;
+}
+#neighborCat:hover{
+   filter: grayscale(0%);
+}
